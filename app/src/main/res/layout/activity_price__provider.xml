@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:text="Lot provider profile"
+        android:textSize="@android:dimen/app_icon_size"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textAlignment="center"
+        android:layout_marginLeft="20dp"
+        android:text="Price per lot (in CHF):"
+        android:textSize="20dp"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textAlignment="center"
+        android:layout_marginLeft="20dp"
+        android:text="10 minutes"
+        android:gravity="center_horizontal" />
+
+    <EditText
+        android:id="@+id/activity_price_provider_10min"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:padding="10dp"
+        android:layout_marginLeft="40dp"
+        android:inputType="number"
+        android:hint="Enter a price in CHF" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textAlignment="center"
+        android:layout_marginLeft="20dp"
+        android:text="30 minutes"
+        android:gravity="center_horizontal" />
+
+    <EditText
+        android:id="@+id/activity_price_provider_30min"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:padding="10dp"
+        android:layout_marginLeft="40dp"
+        android:inputType="number"
+        android:hint="Enter a price in CHF" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textAlignment="center"
+        android:layout_marginLeft="20dp"
+        android:text="1 hour"
+        android:gravity="center_horizontal" />
+
+    <EditText
+        android:id="@+id/activity_price_provider_1hour"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:padding="10dp"
+        android:layout_marginLeft="40dp"
+        android:inputType="number"
+        android:hint="Enter a price in CHF" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textAlignment="center"
+        android:layout_marginLeft="20dp"
+        android:text="8 hours"
+        android:gravity="center_horizontal" />
+
+    <EditText
+        android:id="@+id/activity_price_provider_8hours"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:padding="10dp"
+        android:layout_marginLeft="40dp"
+        android:inputType="number"
+        android:hint="Enter a price in CHF" />
+
+    <Button
+        android:id="@+id/activity_price_provider_nextbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="right"
+        android:textSize="25dp"
+        android:text="Next"/>
+
+</LinearLayout>

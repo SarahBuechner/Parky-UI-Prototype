@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:text="Sign Up"
+        android:textSize="@android:dimen/app_icon_size"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:text="Welcome!"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="10dp"
+        android:layout_gravity="left"
+        android:textAlignment="textStart"
+        android:text="Complete Name"
+        android:textSize="20dp"
+        android:layout_marginLeft="10dp"
+        tools:ignore="RtlCompat" />
+
+    <EditText
+        android:id="@+id/activity_sign_up_completename"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:hint="Please type your name and surname"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="10dp"
+        android:layout_gravity="left"
+        android:textAlignment="textStart"
+        android:text="Email address"
+        android:textSize="20dp"
+        android:layout_marginLeft="10dp"
+        tools:ignore="RtlCompat" />
+
+    <EditText
+        android:id="@+id/activity_sign_up_emailaddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:inputType="textEmailAddress"
+        android:hint="Please type a valid email address"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="10dp"
+        android:layout_gravity="left"
+        android:textAlignment="textStart"
+        android:text="Password"
+        android:textSize="20dp"
+        tools:ignore="RtlCompat" />
+
+    <EditText
+        android:id="@+id/activity_sign_up_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:inputType="textPassword"
+        android:hint="It should contain more than 5 letter and one special sign"/>
+
+    <Button
+        android:id="@+id/activity_sign_up_nextbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="10dp"
+        android:textSize="25dp"
+        android:text="Next"/>
+
+</LinearLayout>
+
+
+

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sarahbuechner.parky_smartparkingforall">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MapActivityDriver2"></activity>
+        <activity android:name=".MapActivityDriver" />
+        <activity android:name=".Time_Date_Driver2" />
+        <activity android:name=".Time_Date_Driver" />
+        <activity android:name=".Price_Provider2" />
+        <activity android:name=".MapActivity2" />
+        <activity android:name=".Time_Date_Provider2" />
+        <activity android:name=".ProviderProfile2" />
+        <activity android:name=".MaxPriceDriver2" />
+        <activity android:name=".DriverProfile2" />
+        <activity android:name=".AlsoProviderProfileActivity" />
+        <activity android:name=".MaxPriceDriver" />
+        <activity android:name=".DriverProfile1" />
+        <activity android:name=".TermsConditions" />
+        <activity android:name=".AlsoDriverProfileActivity" />
+        <activity android:name=".PaypalActivity" />
+        <activity android:name=".MapActivity" />
+        <activity android:name=".Time_Date_Provider" />
+        <activity android:name=".Price_Provider" />
+        <activity android:name=".ProviderProfile1" />
+        <activity android:name=".UserType_Activity" />
+        <activity android:name=".SignUpActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

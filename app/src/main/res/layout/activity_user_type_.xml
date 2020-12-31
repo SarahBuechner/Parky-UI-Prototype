@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:text="Sign Up"
+        android:textSize="@android:dimen/app_icon_size"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="30dp"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:text="Welcome!"
+        android:textSize="30dp"/>
+
+    <CheckBox
+        android:id="@+id/activity_user_type_box_driver"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_gravity="left"
+        android:padding="30dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="30dp"
+        android:textSize="25dp"
+        android:text="I need a parking lot"/>
+
+    <CheckBox
+        android:id="@+id/activity_user_type_box_provider"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_gravity="left"
+        android:padding="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:textSize="25dp"
+        android:text="I provide a parking lot"/>
+
+    <Button
+        android:id="@+id/activity_user_type_nextbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="10dp"
+        android:textSize="25dp"
+        android:text="Next"/>
+
+</LinearLayout>
